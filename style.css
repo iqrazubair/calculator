@@ -1,0 +1,36 @@
+body{
+    background-image: url("b.svg");
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+}
+.borderr{
+    border: 4px solid grey;
+    width: 390px;
+    margin: 70px auto;
+}
+
+.btn{
+    width: 82px;
+    margin: 5px;
+}
+h1{
+    text-align: center !important;
+    color: purple;
+}
+#ans{
+    width: 275px;
+}
+#clrbtn{
+    width: 275px;
+}
+.output{
+    height: 50px;
+    margin-left: 4px;
+    width: 98%;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    text-indent: 10px;
+}
+

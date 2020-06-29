@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div class="borderr">
+        <h1>CALCULATOR</h1><br>
+        <input id="result" class="output" type="text">
+            <button type="button" onclick="clearResult()" class="btn btn-dark" id="clrbtn"> <h3> Clear </h3></button> 
+            <button type="button" onclick="getNumber('+')" class="btn btn-dark"> <h3> + </h3></button><br>
+            <button type="button" onclick="getNumber('1')" class="btn btn-dark"> <h3> 1 </h3></button>
+            <button type="button" onclick="getNumber('2')" class="btn btn-dark"> <h3> 2 </h3></button> 
+            <button type="button" onclick="getNumber('3')" class="btn btn-dark"> <h3> 3 </h3></button> 
+            <button type="button" onclick="getNumber('-')" class="btn btn-dark"> <h3> - </h3></button> <br>
+            <button type="button" onclick="getNumber('4')" class="btn btn-dark"> <h3> 4 </h3></button>
+            <button type="button" onclick="getNumber('5')" class="btn btn-dark"> <h3> 5 </h3></button> 
+            <button type="button" onclick="getNumber('6')" class="btn btn-dark"> <h3> 6 </h3></button> 
+            <button type="button" onclick="getNumber('*')" class="btn btn-dark"> <h3> x </h3></button> <br>
+            <button type="button" onclick="getNumber('7')" class="btn btn-dark"> <h3> 7 </h3></button>
+            <button type="button" onclick="getNumber('8')" class="btn btn-dark"> <h3> 8 </h3></button>
+            <button type="button" onclick="getNumber('9')" class="btn btn-dark"> <h3> 9 </h3></button> 
+            <button type="button" onclick="getNumber('/')" class="btn btn-dark"> <h3> / </h3></button> <br>
+            <button type="button" onclick="getNumber('0')" class="btn btn-dark"> <h3> 0 </h3></button> 
+            <button type="button" class="btn btn-dark" onclick="getResult()" id="ans"> <h3> = </h3></button>
+            
+    </div>
+<script src="cal.js"></script>
+</body>
+</html>
